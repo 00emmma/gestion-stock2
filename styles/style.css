@@ -1,0 +1,104 @@
+body {
+  background-color: #0f2027;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar {
+  background-color: #203a43;
+  height: 100vh;
+  padding: 30px 20px;
+}
+
+.sidebar h2 {
+  color: #00c6ff;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #2c5364;
+}
+
+.content {
+  padding: 40px;
+  background-color: #2c5364;
+  min-height: 100vh;
+}
+
+.welcome {
+  margin-bottom: 30px;
+}
+
+.stat-box {
+  background-color: #ffffff10;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.stat-box h5 {
+  color: #00c6ff;
+}
+
+.chart-box {
+  background-color: #ffffff10;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.chart-placeholder {
+  height: 200px;
+  background-color: #ffffff20;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ccc;
+  font-style: italic;
+}
+
+.activity-box {
+  background-color: #ffffff10;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.activity-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.activity-box ul li {
+  margin-bottom: 10px;
+}
+
+.quick-actions {
+  background-color: #ffffff10;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.quick-actions h5 {
+  margin-bottom: 15px;
+}
